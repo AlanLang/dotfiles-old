@@ -1,8 +1,7 @@
+local common = require("lsp.common-config")
 local opts = {
-  capabilities = require("cmp_nvim_lsp").default_capabilities(vim.lsp.protocol.make_client_capabilities()),
-  flags = {
-    debounce_text_changes = 150,
-  },
+  flags = common.flags,
+  capabilities = common.capabilities,
   on_attach = function(client, buf)
     -- 禁用格式化功能，交给专门插件插件处理
     client.resolved_capabilities.document_formatting = false
