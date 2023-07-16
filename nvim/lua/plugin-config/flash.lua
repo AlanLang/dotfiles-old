@@ -6,6 +6,11 @@ return {
       after = false,
       before = true,
       style = "overlay"
+    },
+    modes = {
+      char = {
+        jump_labels = true,
+      }
     }
   },
   keys = {
