@@ -38,7 +38,7 @@ map("n", "<leader>F", "<cmd>lua require('spectre').open()<cr>", opt)
 -- 查找文件
 map("n", "<leader>g", ":Telescope find_files<CR>", opt)
 map("n", "<leader>G", ":Telescope find_files hidden=true<CR>", opt)
--- Alt + hjkl  窗口之间跳转
+-- 窗口之间跳转
 map("n", "<leader>h", "<C-w>h", opt)
 map("n", "<leader>j", "<C-w>j", opt)
 map("n", "<leader>k", "<C-w>k", opt)

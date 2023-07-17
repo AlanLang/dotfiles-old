@@ -1,0 +1,17 @@
+neovim
+nvim
+vim
+cmd
+bufnr
+noremap
+mapleader
+maplocalleader
+lazygit
+autocmd
+augroup
+omnifunc
+vsplit
+dotfiles
+lazypath
+stdpath
+treesitter
