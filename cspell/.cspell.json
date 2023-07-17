@@ -1,0 +1,41 @@
+{
+  "ignorePaths": [
+    "node_modules"
+  ],
+  "dictionaries": [
+    "en_US",
+    "misc",
+    "companies",
+    "softwareTerms",
+    "python",
+    "fonts",
+    "filetypes",
+    "bash",
+    "vim",
+    "local",
+    "rust",
+    "typescript",
+    "npm",
+    "html",
+    "css",
+    "node",
+    "rust",
+    "frontend",
+  ],
+  "words": [
+  ],
+  "dictionaryDefinitions": [
+    {
+      "name": "rust",
+      "file": "~/.config/cspell/rust.txt",
+      "description": "Rust"
+    },
+    {
+      "name": "frontend",
+      "file": "~/.config/cspell/frontend.txt",
+    },
+  ],
+  "version": "0.2",
+  "flagWords": ["hte"],
+  "$schema": "https:\/\/raw.githubusercontent.com\/streetsidesoftware\/cspell\/main\/cspell.schema.json"
+}

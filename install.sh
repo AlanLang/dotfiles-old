@@ -25,8 +25,16 @@ link_tmux(){
   ln -s $CURRENT_DIR/tmux/.tmux.conf.local ~/.tmux.conf.local
 }
 
+link_cspell(){
+  echo "Installing cspell configs"
+  rm -rf ~/.cspell.json
+  rm -rf ~/.config/cspell
+  ln -s $CURRENT_DIR/cspell/.cspell.json ~/.cspell.json
+  ln -s $CURRENT_DIR/cspell/cspell ~/.config/cspell
+}
 
 link_nvim
 link_alacritty
 link_tmux
 sh ./vscode/link.sh
+link_cspell

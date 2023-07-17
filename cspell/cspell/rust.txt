@@ -1,0 +1,6 @@
+reqwest
+rustls
+chrono
+pocketbase
+jemallocator
+cargo
